@@ -329,7 +329,7 @@
     <message>
       <location line="+10"/>
       <source>Alt+A</source>
-      <translation type="unfinished">Alt+A</translation>
+      <translation>Alt+A</translation>
     </message>
     <message>
       <location line="+10"/>
@@ -339,7 +339,7 @@
     <message>
       <location line="+10"/>
       <source>Alt+P</source>
-      <translation type="unfinished">Alt+P</translation>
+      <translation>Alt+P</translation>
     </message>
     <message>
       <location line="+14"/>
@@ -507,7 +507,7 @@
     <message>
       <location filename="../bitcoingui.cpp" line="+123"/>
       <source>Wallet</source>
-      <translation type="unfinished">Wallet</translation>
+      <translation>Wallet</translation>
     </message>
     <message>
       <location line="+2"/>
@@ -1059,7 +1059,7 @@ Adresse: %4</translation>
     <message>
       <location filename="../forms/blockexplorer.ui" line="+14"/>
       <source>Blockchain Explorer</source>
-      <translation type="unfinished">Blockchain Explorer</translation>
+      <translation>Blockchain Explorer</translation>
     </message>
     <message>
       <location line="+55"/>
@@ -1666,7 +1666,7 @@ Adresse: %4</translation>
     <message>
       <location line="+5"/>
       <source>Status</source>
-      <translation type="unfinished">Status</translation>
+      <translation>Status</translation>
     </message>
     <message>
       <location line="+5"/>
@@ -1948,7 +1948,7 @@ Please check the address and try again.</translation>
     <message>
       <location line="+13"/>
       <source>Maximum Privacy</source>
-      <translation type="unfinished">Maximum Privacy</translation>
+      <translation>Maximale Privatsphäre</translation>
     </message>
     <message>
       <location line="+13"/>
