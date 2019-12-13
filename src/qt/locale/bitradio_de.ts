@@ -1978,7 +1978,7 @@ Please check the address and try again.</translation>
     <message>
       <location line="+13"/>
       <source>This option is moderately fast and will cost about 0.05 BRO to anonymize 10000 BRO</source>
-      <translation type="unfinished">This option is moderately fast and will cost about 0.05 BRO to anonymize 10000 BRO</translation>
+      <translation>Diese Option ist mäßig schnell und kostet etwa 0,05 BRO um 10000 BRO zu anonymisieren</translation>
     </message>
     <message>
       <location line="+13"/>
@@ -2061,7 +2061,7 @@ Please check the address and try again.</translation>
     <message>
       <location line="+16"/>
       <source>MB</source>
-      <translation type="unfinished">MB</translation>
+      <translation>MB</translation>
     </message>
     <message>
       <location line="+27"/>
@@ -2106,7 +2106,7 @@ Please check the address and try again.</translation>
     <message>
       <location line="-82"/>
       <source>Expert</source>
-      <translation type="unfinished">Expert</translation>
+      <translation>Experte</translation>
     </message>
     <message>
       <location line="-179"/>
