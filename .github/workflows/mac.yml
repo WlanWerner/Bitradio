@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: Download
       run: curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.6.2.tar.bz2
-           tar xf MacPorts-2.6.2.tar.bz2
     - name: tar
       run:  tar xf MacPorts-2.6.2.tar.bz2
     - name: cd
