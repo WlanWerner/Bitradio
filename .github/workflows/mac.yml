@@ -9,6 +9,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: Install brew
+      run: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - name: dependencies
       run:  brew install automake berkeley-db4 libtool boost miniupnpc pkg-config python libevent qrencode
             brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
