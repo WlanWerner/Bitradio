@@ -9,8 +9,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: x-Code
-      run:  xcode-select --install
     - name: dependencies
       run:  brew install automake berkeley-db4 libtool boost miniupnpc pkg-config python libevent qrencode
             brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
