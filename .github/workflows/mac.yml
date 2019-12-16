@@ -9,9 +9,9 @@ jobs:
     
     steps:
     - name: Download
-      run: curl -O http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.bz2
+      run: curl -O http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz
     - name: tar
-      run:  tar -xjvf  boost_1_55_0.tar.bz2
+      run:  tar -xzvf boost_1_55_0.tar.gz
     - name: depends
       working-directory: ./boost_1_55_0.tar.bz2
       run: ./bootstrap.sh --prefix=/usr/local/boost-1.55.0
