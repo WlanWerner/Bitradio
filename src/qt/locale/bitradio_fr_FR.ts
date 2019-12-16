@@ -3127,7 +3127,7 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
     </message>
     <message>
       <source>A&amp;mount:</source>
-      <translation>&amp;Montage:</translation>
+      <translation>&amp;Montant:</translation>
     </message>
     <message>
       <source>Message:</source>
