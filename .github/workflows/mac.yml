@@ -18,7 +18,7 @@ jobs:
     - name: make
       working-directory: ./MacPorts-2.6.2
       run: make
-    - name: make install
+    - name: sudo make install
       working-directory: ./MacPorts-2.6.2
       run: make install
     - name: Export
