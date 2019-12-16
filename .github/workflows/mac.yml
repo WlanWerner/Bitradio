@@ -9,9 +9,10 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: dependencies
+    - name: x-Code
       run:  xcode-select --install
-            brew install automake berkeley-db4 libtool boost miniupnpc pkg-config python libevent qrencode
+    - name: dependencies
+      run:  brew install automake berkeley-db4 libtool boost miniupnpc pkg-config python libevent qrencode
             brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
     - name: autogen
       run:  ./autogen.sh
