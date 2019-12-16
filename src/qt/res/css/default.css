@@ -1006,7 +1006,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#labelAnonymizedText {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#33300f;
+color:#696969;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1019,7 +1019,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#label_8 { /* Obfuscat
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#33300f;
+color:#696969;
 margin-right:5px;
 padding-right:5px;
 }
