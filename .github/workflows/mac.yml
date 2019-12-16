@@ -20,7 +20,7 @@ jobs:
       run: make
     - name: sudo make install
       working-directory: ./MacPorts-2.6.2
-      run: make install
+      run: sudo make install
     - name: Export
       run: export PATH=/opt/local/bin:/opt/local/sbin:$PATH
     
