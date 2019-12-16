@@ -1,0 +1,30 @@
+name: Mac (QT)
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macos-latest 
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: dependencies
+      run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+            brew install automake berkeley-db4 libtool boost miniupnpc pkg-config python libevent qrencode
+            brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+    - name: autogen
+      run:  ./autogen.sh
+    - name: configure
+      run: ./configure --with-gui=qt5
+    - name: make
+      run: make
+    - name: make check
+      run: make check
+    - name: make install
+      run: make install DESTDIR=/home/runner/work/Bitradio/Bitradio/installer 
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: Mac
+        path: /home/runner/work/Bitradio/Bitradio/installer
