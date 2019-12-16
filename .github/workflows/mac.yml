@@ -12,9 +12,10 @@ jobs:
       run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2.tar.gz
     - name: unpack
       run:  tar xzvf MacPorts-2.6.2.tar.gz
-    - name: Ports
+    - name: cd
       run: cd MacPorts-2.6.2
-          ./configure && make && sudo make install
+    - name: Ports
+      run: ./configure && make && sudo make install
     - name: boost
       run: sudo port install boost 
     - name: dependencies
