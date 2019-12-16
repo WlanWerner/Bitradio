@@ -21,6 +21,8 @@ jobs:
       run: make
     - name: make install
       run: make install
+    - name: Export
+      run: export PATH=/opt/local/bin:/opt/local/sbin:$PATH
     
     - name: boost
       run: sudo port install boost 
