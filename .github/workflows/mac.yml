@@ -14,7 +14,7 @@ jobs:
             brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
     - name: depends
       working-directory: ./depends
-      run: make HOST=x86_64-apple-darwin11
+      run: make HOST=x86_64-apple-darwin14
     - name: autogen
       run:  ./autogen.sh
     - name: configure
