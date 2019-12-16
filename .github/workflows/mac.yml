@@ -9,13 +9,9 @@ jobs:
     
     steps:
     - name: Download
-      run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2.tar.gz
+      run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2-10.15-Catalina.pkg
     - name: unpack
-      run:  tar xzvf MacPorts-2.6.2.tar.gz
-    - name: cd
-      run: cd MacPorts-2.6.2
-    - name: Ports
-      run: ./configure && make && sudo make install
+      run:  sudo installer -pkg MacPorts-2.6.2-10.15-Catalina.pkg
     - name: boost
       run: sudo port install boost 
     - name: dependencies
