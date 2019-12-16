@@ -8,7 +8,9 @@ jobs:
     runs-on: macos-latest 
     
     steps:
-    - uses: actions/checkout@v1
+    - name: Download
+      run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2.tar.gz
+          tar xzvf MacPorts-2.6.2.tar.gz
     - name: Ports
       run: cd MacPorts-2.6.2
           ./configure && make && sudo make install
@@ -18,6 +20,7 @@ jobs:
       run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - name: brew deps
       run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkg-config protobuf qt5
+    - uses: actions/checkout@v1
     - name: autogen
       run:  ./autogen.sh
     - name: configure
