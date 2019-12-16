@@ -12,13 +12,14 @@ jobs:
       run: curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.6.2.tar.bz2
     - name: tar
       run:  tar xf MacPorts-2.6.2.tar.bz2
-    - name: cd
-      run:  cd MacPorts-2.6.2/
-    - name: configure
-      run:  ./configure
+    - name: depends
+      working-directory: ./MacPorts-2.6.2
+      run: ./configure
     - name: make
+      working-directory: ./MacPorts-2.6.2
       run: make
     - name: make install
+      working-directory: ./MacPorts-2.6.2
       run: make install
     - name: Export
       run: export PATH=/opt/local/bin:/opt/local/sbin:$PATH
