@@ -12,7 +12,7 @@ jobs:
     - name: dependencies
       run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - name: brew deps
-      run: brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+      run: brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl@1.0 pkg-config protobuf qt5
     - name: autogen
       run:  ./autogen.sh
     - name: configure
