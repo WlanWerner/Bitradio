@@ -11,7 +11,7 @@ jobs:
     - name: Download
       run: curl -O http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.bz2
     - name: tar
-      run:  tar -xjf boost_1_55_0.tar.bz2
+      run:  tar -xjvf  boost_1_55_0.tar.bz2
     - name: depends
       working-directory: ./boost_1_55_0.tar.bz2
       run: ./bootstrap.sh --prefix=/usr/local/boost-1.55.0
