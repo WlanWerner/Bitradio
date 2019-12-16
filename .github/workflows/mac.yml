@@ -11,7 +11,7 @@ jobs:
     - name: Download
       run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2-10.15-Catalina.pkg
     - name: unpack
-      run:  sudo installer -pkg MacPorts-2.6.2-10.15-Catalina.pkg -target /
+      run:  sudo installer -pkg MacPorts-2.6.2-10.15-Catalina.pkg -target /opt/local/bin
     - name: boost
       run: sudo port install boost 
     - name: dependencies
