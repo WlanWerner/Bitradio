@@ -97,8 +97,6 @@
       <source>There was an error trying to save the address list to %1. Please try again.</source>
       <translation>Si è verificato un errore nel salvataggio dell'elenco indirizzi in %1. Si prega di ritentare.</translation>
     </message>
-  </context>
-  <context>
     <name>AddressTableModel</name>
     <message>
       <source>Label</source>

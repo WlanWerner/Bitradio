@@ -1309,7 +1309,7 @@ Adresse : %4
     </message>
     <message>
       <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;MISSING&quot; in &quot;Status&quot; field.</source>
-      <translation>Remarque: Le statut de vos chefs-d'œuvre dans le portefeuille local peut être légèrement incorrect.&lt;br /&gt;Toujours attendre le portefeuille pour synchroniser des données supplémentaires, puis double vérification à partir d'un autre noeud&lt;br /&gt;si votre noeud doit être en cours d'exécution, mais vous voyez toujours &quot;MISSING&quot; dans le champ &quot;Statut&quot;.</translation>
+      <translation>Remarque: Le statut de vos masternodes dans le portefeuille local peut être légèrement incorrect.&lt;br /&gt;Toujours attendre le portefeuille pour synchroniser des données supplémentaires, puis double vérification à partir d'un autre noeud&lt;br /&gt;si votre noeud doit être en cours d'exécution, mais vous voyez toujours &quot;MISSING&quot; dans le champ &quot;Statut&quot;.</translation>
     </message>
     <message>
       <source>Alias</source>

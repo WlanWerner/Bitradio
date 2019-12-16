@@ -2,7 +2,6 @@
   <context>
     <name>AddressBookPage</name>
     <message>
-      <location filename="../forms/addressbookpage.ui" line="+67"/>
       <source>Right-click to edit address or label</source>
       <translation>Rechts-Klick um Adresse oder Bezeichnung zu bearbeiten</translation>
     </message>
@@ -43,7 +42,6 @@
       <translation>&amp;Schließen</translation>
     </message>
     <message>
-      <location filename="../addressbookpage.cpp" line="+44"/>
       <source>Choose the address to send coins to</source>
       <translation>Wählen Sie die Adresse aus, an die Sie BitRadio überweisen möchten</translation>
     </message>
@@ -103,7 +101,6 @@
   <context>
     <name>AddressTableModel</name>
     <message>
-      <location filename="../addresstablemodel.cpp" line="+157"/>
       <source>Label</source>
       <translation>Bezeichnung</translation>
     </message>
@@ -119,7 +116,6 @@
   <context>
     <name>AskPassphraseDialog</name>
     <message>
-      <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
       <source>Passphrase Dialog</source>
       <translation>Passphrasendialog</translation>
     </message>
@@ -144,7 +140,6 @@
       <translation>Nur zur Anonymisierung und "Staking"</translation>
     </message>
     <message>
-      <location filename="../askpassphrasedialog.cpp" line="+44"/>
       <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
       <translation>Geben Sie die neue Passphrase für die Wallet ein.&lt;br&gt;Bitte benutzen Sie eine Passphrase bestehend aus &lt;b&gt;10 oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;8 oder mehr Wörtern&lt;/b&gt;.</translation>
     </message>
@@ -236,7 +231,6 @@
   <context>
     <name>Bip38ToolDialog</name>
     <message>
-      <location filename="../forms/bip38tooldialog.ui" line="+14"/>
       <source>BIP 38 Tool</source>
       <translation>BIP-38-Werkzeug</translation>
     </message>
@@ -333,7 +327,6 @@
       <translation>Adresse importieren</translation>
     </message>
     <message>
-      <location filename="../bip38tooldialog.cpp" line="+31"/>
       <source>Click &quot;Decrypt Key&quot; to compute key</source>
       <translation>Klicken Sie auf &quot;Decrypt Key&quot; , um den Schlüssel zu berechnen.</translation>
     </message>
@@ -401,7 +394,6 @@
   <context>
     <name>BitcoinGUI</name>
     <message>
-      <location filename="../bitcoingui.cpp" line="+123"/>
       <source>Wallet</source>
       <translation>Wallet</translation>
     </message>
@@ -846,7 +838,6 @@ Adresse: %4</translation>
   <context>
     <name>BlockExplorer</name>
     <message>
-      <location filename="../forms/blockexplorer.ui" line="+14"/>
       <source>Blockchain Explorer</source>
       <translation>Blockchain-Explorer</translation>
     </message>
@@ -863,7 +854,6 @@ Adresse: %4</translation>
       <translation>TextEtikett</translation>
     </message>
     <message>
-      <location filename="../blockexplorer.cpp" line="+473"/>
       <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitradio.conf).</source>
       <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "bitradio.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
@@ -871,7 +861,6 @@ Adresse: %4</translation>
   <context>
     <name>ClientModel</name>
     <message>
-      <location filename="../clientmodel.cpp" line="+73"/>
       <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
       <translation>Gesamt: %1 (OBF kompatibel: %2 / Aktiviert: %3)</translation>
     </message>
@@ -883,7 +872,6 @@ Adresse: %4</translation>
   <context>
     <name>CoinControlDialog</name>
     <message>
-      <location filename="../forms/coincontroldialog.ui" line="+48"/>
       <source>Quantity:</source>
       <translation>Anzahl:</translation>
     </message>
@@ -972,7 +960,6 @@ Adresse: %4</translation>
       <translation>Priorität</translation>
     </message>
     <message>
-      <location filename="../coincontroldialog.cpp" line="+50"/>
       <source>Copy address</source>
       <translation>Adresse kopieren</translation>
     </message>
@@ -1057,13 +1044,10 @@ Adresse: %4</translation>
       <translation>k.A.</translation>
     </message>
     <message>
-      <location filename="../forms/coincontroldialog.ui" line="-334"/>
-      <location filename="../coincontroldialog.cpp" line="-335"/>
       <source>medium</source>
       <translation>mittel</translation>
     </message>
     <message>
-      <location filename="../coincontroldialog.cpp" line="+2"/>
       <source>low-medium</source>
       <translation>niedrig-mittel</translation>
     </message>
@@ -1092,13 +1076,10 @@ Adresse: %4</translation>
       <translation>ja</translation>
     </message>
     <message>
-      <location filename="../forms/coincontroldialog.ui" line="+80"/>
-      <location filename="../coincontroldialog.cpp" line="+0"/>
       <source>no</source>
       <translation>nein</translation>
     </message>
     <message>
-      <location filename="../coincontroldialog.cpp" line="+15"/>
       <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
       <translation>Diese Bezeichnung wird rot, wenn die Transaktion größer als 1000 Bytes ist.</translation>
     </message>
@@ -1138,7 +1119,6 @@ Adresse: %4</translation>
   <context>
     <name>EditAddressDialog</name>
     <message>
-      <location filename="../forms/editaddressdialog.ui" line="+14"/>
       <source>Edit Address</source>
       <translation>Adresse bearbeiten</translation>
     </message>
@@ -1159,7 +1139,6 @@ Adresse: %4</translation>
       <translation>Adresse, die dem Adresslisteneintrag zugeordnet ist. Diese kann nur bei Zahlungsadressen verändert werden.</translation>
     </message>
     <message>
-      <location filename="../editaddressdialog.cpp" line="+28"/>
       <source>New receiving address</source>
       <translation>Neue Empfangsadresse</translation>
     </message>
@@ -1195,7 +1174,6 @@ Adresse: %4</translation>
   <context>
     <name>FreespaceChecker</name>
     <message>
-      <location filename="../intro.cpp" line="+70"/>
       <source>A new data directory will be created.</source>
       <translation>Es wird ein neues Datenverzeichnis angelegt.</translation>
     </message>
@@ -1219,7 +1197,6 @@ Adresse: %4</translation>
   <context>
     <name>HelpMessageDialog</name>
     <message>
-      <location filename="../utilitydialog.cpp" line="+37"/>
       <source>version</source>
       <translation>Version</translation>
     </message>
@@ -1275,7 +1252,6 @@ Adresse: %4</translation>
   <context>
     <name>Intro</name>
     <message>
-      <location filename="../forms/intro.ui" line="+14"/>
       <source>Welcome</source>
       <translation>Willkommen</translation>
     </message>
@@ -1300,7 +1276,6 @@ Adresse: %4</translation>
       <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-      <location filename="../intro.cpp" line="+77"/>
       <source>BitRadio Core</source>
       <translation>BitFunkkern</translation>
     </message>
@@ -1324,7 +1299,6 @@ Adresse: %4</translation>
   <context>
     <name>MasternodeList</name>
     <message>
-      <location filename="../forms/masternodelist.ui" line="+14"/>
       <source>Form</source>
       <translation>Formular</translation>
     </message>
@@ -1389,7 +1363,6 @@ Adresse: %4</translation>
       <translation type="unfinished"/>
     </message>
     <message>
-      <location filename="../masternodelist.cpp" line="+45"/>
       <source>Start alias</source>
       <translation>Starten</translation>
     </message>
@@ -1429,7 +1402,6 @@ Adresse: %4</translation>
   <context>
     <name>MultiSendDialog</name>
     <message>
-      <location filename="../forms/multisenddialog.ui" line="+17"/>
       <source>MultiSend</source>
       <translation>MultiSend</translation>
     </message>
@@ -1528,7 +1500,6 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
       <translation>Für Masterknotenbelohnungen senden</translation>
     </message>
     <message>
-      <location filename="../multisenddialog.cpp" line="+92"/>
       <source>The entered address:
 </source>
       <translation>Die eingegebene Adresse:
@@ -1570,7 +1541,6 @@ Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
   <context>
     <name>ObfuscationConfig</name>
     <message>
-      <location filename="../forms/obfuscationconfig.ui" line="+14"/>
       <source>Configure Obfuscation</source>
       <translation>Verschleierung konfigurieren</translation>
     </message>
@@ -1619,7 +1589,6 @@ Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
       <translation>0,1 BRO pro 10000 BRO Sie anonymisieren.</translation>
     </message>
     <message>
-      <location filename="../obfuscationconfig.cpp" line="+42"/>
       <source>Obfuscation Configuration</source>
       <translation>Obfuskations-Konfiguration</translation>
     </message>
@@ -1639,7 +1608,6 @@ Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
   <context>
     <name>OpenURIDialog</name>
     <message>
-      <location filename="../forms/openuridialog.ui" line="+14"/>
       <source>Open URI</source>
       <translation>URI öffnen</translation>
     </message>
@@ -1656,7 +1624,6 @@ Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
       <translation>Zahlungsanforderungsdatei auswählen</translation>
     </message>
     <message>
-      <location filename="../openuridialog.cpp" line="+47"/>
       <source>Select payment request file to open</source>
       <translation>Zu öffnende Zahlungsanforderungsdatei auswählen</translation>
     </message>
@@ -1664,7 +1631,6 @@ Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
   <context>
     <name>OptionsDialog</name>
     <message>
-      <location filename="../forms/optionsdialog.ui" line="+14"/>
       <source>Options</source>
       <translation>Optionen</translation>
     </message>
@@ -1871,7 +1837,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>&amp;Abbrechen</translation>
     </message>
     <message>
-      <location filename="../optionsdialog.cpp" line="+99"/>
       <source>default</source>
       <translation>standard</translation>
     </message>
@@ -1903,7 +1868,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>OverviewPage</name>
     <message>
-      <location filename="../forms/overviewpage.ui" line="+20"/>
       <source>Form</source>
       <translation>Formular</translation>
     </message>
@@ -1996,7 +1960,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Setzen Sie den aktuellen Status von Obfuscation (kann die Obfuscation unterbrechen, wenn sie&apos;s im Prozess der Mixing, die Sie Geld kosten kann!)</translation>
     </message>
     <message>
-      <location filename="../overviewpage.cpp" line="+478"/>
       <source>Obfuscation</source>
       <translation>Verschleierung</translation>
     </message>
@@ -2041,7 +2004,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Zurücksetzen</translation>
     </message>
     <message>
-      <location filename="../overviewpage.cpp" line="-381"/>
       <source>out of sync</source>
       <translation>nicht synchron</translation>
     </message>
@@ -2133,7 +2095,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>PaymentServer</name>
     <message>
-      <location filename="../paymentserver.cpp" line="+297"/>
       <source>Payment request error</source>
       <translation>Fehler bei Zahlungsanforderung</translation>
     </message>
@@ -2225,7 +2186,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>PeerTableModel</name>
     <message>
-      <location filename="../peertablemodel.cpp" line="+113"/>
       <source>Address/Hostname</source>
       <translation>Adresse/Rechnername</translation>
     </message>
@@ -2241,12 +2201,10 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>QObject</name>
     <message>
-      <location filename="../bitcoinunits.cpp" line="+252"/>
       <source>Amount</source>
       <translation>Betrag</translation>
     </message>
     <message>
-      <location filename="../guiutil.cpp" line="+113"/>
       <source>Enter a BitRadio address (e.g. %1)</source>
       <translation>BitRadio-Adresse eingeben (z.B. %1)</translation>
     </message>
@@ -2294,7 +2252,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>QRImageWidget</name>
     <message>
-      <location filename="../receiverequestdialog.cpp" line="+35"/>
       <source>&amp;Save Image...</source>
       <translation>Grafik &amp;speichern...</translation>
     </message>
@@ -2314,7 +2271,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>RPCConsole</name>
     <message>
-      <location filename="../forms/rpcconsole.ui" line="+14"/>
       <source>Tools window</source>
       <translation>Fenster "Tools"</translation>
     </message>
@@ -2427,7 +2383,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>&amp;Peers</translation>
     </message>
     <message>
-      <location filename="../rpcconsole.cpp" line="+261"/>
       <source>Select a peer to view detailed information.</source>
       <translation>Wählen Sie einen Peer aus, um detaillierte Informationen anzuzeigen.</translation>
     </message>
@@ -2548,7 +2503,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Index erneut erstellen</translation>
     </message>
     <message>
-      <location filename="../rpcconsole.cpp" line="-206"/>
       <source>In:</source>
       <translation>In:</translation>
     </message>
@@ -2612,7 +2566,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-      <location filename="../forms/receivecoinsdialog.ui" line="+34"/>
       <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
       <translation>Eine der zuvor verwendeten Empfangsadressen wiederverwenden.&lt;br&gt;Reusing-Adressen haben Sicherheits-und Datenschutzprobleme.&lt;br&gt;Verwenden Sie diese Option nur, wenn Sie einen zuvor gestellten Zahlungsantrag erneut generieren.</translation>
     </message>
@@ -2685,7 +2638,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Entfernen</translation>
     </message>
     <message>
-      <location filename="../receivecoinsdialog.cpp" line="+38"/>
       <source>Copy label</source>
       <translation>Bezeichnung kopieren</translation>
     </message>
@@ -2701,7 +2653,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>ReceiveRequestDialog</name>
     <message>
-      <location filename="../forms/receiverequestdialog.ui" line="+29"/>
       <source>QR Code</source>
       <translation>QR-Code</translation>
     </message>
@@ -2718,7 +2669,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Grafik &amp;speichern...</translation>
     </message>
     <message>
-      <location filename="../receiverequestdialog.cpp" line="+63"/>
       <source>Request payment to %1</source>
       <translation>Zahlung anfordern an %1</translation>
     </message>
@@ -2758,7 +2708,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>RecentRequestsTableModel</name>
     <message>
-      <location filename="../recentrequeststablemodel.cpp" line="+27"/>
       <source>Date</source>
       <translation>Datum</translation>
     </message>
@@ -2790,8 +2739,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>SendCoinsDialog</name>
     <message>
-      <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-      <location filename="../sendcoinsdialog.cpp" line="+234"/>
       <source>Send Coins</source>
       <translation>BitRadio überweisen</translation>
     </message>
@@ -2984,7 +2931,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Kontostand:</translation>
     </message>
     <message>
-      <location filename="../sendcoinsdialog.cpp" line="-584"/>
       <source>Copy quantity</source>
       <translation>Kopiere Anzahl</translation>
     </message>
@@ -3139,7 +3085,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>SendCoinsEntry</name>
     <message>
-      <location filename="../forms/sendcoinsentry.ui" line="+21"/>
       <source>This is a normal payment.</source>
       <translation>Dies ist eine normale Überweisung.</translation>
     </message>
@@ -3208,7 +3153,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Dies is eine verifizierte Zahlungsanforderung.</translation>
     </message>
     <message>
-      <location filename="../sendcoinsentry.cpp" line="+31"/>
       <source>Enter a label for this address to add it to your address book</source>
       <translation>Adressbezeichnung eingeben, diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt</translation>
     </message>
@@ -3216,7 +3160,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>ShutdownWindow</name>
     <message>
-      <location filename="../utilitydialog.cpp" line="+75"/>
       <source>BitRadio Core is shutting down...</source>
       <translation>BitRadio Core wird beendet...</translation>
     </message>
@@ -3228,7 +3171,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-      <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
       <source>Signatures - Sign / Verify a Message</source>
       <translation>Signaturen-Eine Nachricht signieren/prüfen</translation>
     </message>
@@ -3313,7 +3255,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Zurücksetzen aller überprüften Felder.</translation>
     </message>
     <message>
-      <location filename="../signverifymessagedialog.cpp" line="+30"/>
       <source>Click &quot;Sign Message&quot; to generate signature</source>
       <translation>Klicken Sie auf ' &quot;signieren'&quot; , um die Signatur zu generieren.</translation>
     </message>
@@ -3369,7 +3310,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>SplashScreen</name>
     <message>
-      <location filename="../splashscreen.cpp" line="+36"/>
       <source>BitRadio Core</source>
       <translation>BitFunkkern</translation>
     </message>
@@ -3390,7 +3330,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
       <translation>Die BitRadio Core Entwickler</translation>
     </message>
     <message>
-      <location filename="../networkstyle.cpp" line="+19"/>
       <source>[testnet]</source>
       <translation>[Testnetzwerk]</translation>
     </message>
@@ -3398,7 +3337,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>TrafficGraphWidget</name>
     <message>
-      <location filename="../trafficgraphwidget.cpp" line="+78"/>
       <source>KB/s</source>
       <translation>KB/s</translation>
     </message>
@@ -3406,7 +3344,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
-      <location filename="../transactiondesc.cpp" line="+33"/>
       <source>Open for %n more block(s)</source>
       <translation>
         <numerusform>Geöffnet für %n mehr Block (e)</numerusform>
@@ -3603,7 +3540,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>TransactionDescDialog</name>
     <message>
-      <location filename="../forms/transactiondescdialog.ui" line="+14"/>
       <source>Transaction details</source>
       <translation>Transaktionsdetails</translation>
     </message>
@@ -3615,7 +3551,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>TransactionTableModel</name>
     <message>
-      <location filename="../transactiontablemodel.cpp" line="+213"/>
       <source>Date</source>
       <translation>Datum</translation>
     </message>
@@ -3758,7 +3693,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>TransactionView</name>
     <message>
-      <location filename="../transactionview.cpp" line="+68"/>
       <source>All</source>
       <translation>Alle</translation>
     </message>
@@ -3934,7 +3868,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-      <location filename="../bitcoingui.cpp" line="+102"/>
       <source>Unit to show amounts in. Click to select another unit.</source>
       <translation>Angezeigte Einheit. Anklicken Sie, um eine andere Einheit zu wählen.</translation>
     </message>
@@ -3942,7 +3875,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>WalletFrame</name>
     <message>
-      <location filename="../walletframe.cpp" line="+25"/>
       <source>No wallet has been loaded.</source>
       <translation>Es wurde keine Wallet geladen.</translation>
     </message>
@@ -3950,7 +3882,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>WalletModel</name>
     <message>
-      <location filename="../walletmodel.cpp" line="+274"/>
       <source>Send Coins</source>
       <translation>BitRadio überweisen</translation>
     </message>
@@ -3962,7 +3893,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>WalletView</name>
     <message>
-      <location filename="../walletview.cpp" line="+49"/>
       <source>&amp;Export</source>
       <translation>&amp;Exportieren</translation>
     </message>
@@ -4002,7 +3932,6 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
   <context>
     <name>bitradio-core</name>
     <message>
-      <location filename="../bitradiostrings.cpp" line="+12"/>
       <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
       <translation>(1 = beibehalten von tx-Metadaten, z.B. Kontoinhaber und Zahlungsaufforderungs-Informationen, 2 = drop-tx-Meta-Daten)</translation>
     </message>
