@@ -606,7 +606,7 @@
     </message>
     <message>
       <source>BitRadio Core</source>
-      <translation>BitFunkkern</translation>
+      <translation>Bitradio Wallet</translation>
     </message>
     <message>
       <source>Send coins to a BitRadio address</source>
@@ -1202,7 +1202,7 @@ Adresse: %4</translation>
     </message>
     <message>
       <source>BitRadio Core</source>
-      <translation>BitFunkkern</translation>
+      <translation>Bitradio Wallet</translation>
     </message>
     <message>
       <source>(%1-bit)</source>
@@ -1277,7 +1277,7 @@ Adresse: %4</translation>
     </message>
     <message>
       <source>BitRadio Core</source>
-      <translation>BitFunkkern</translation>
+      <translation>Bitradio Wallet</translation>
     </message>
     <message>
       <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
@@ -3311,7 +3311,7 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
     <name>SplashScreen</name>
     <message>
       <source>BitRadio Core</source>
-      <translation>BitFunkkern</translation>
+      <translation>Bitradio Wallet</translation>
     </message>
     <message>
       <source>Version %1</source>
