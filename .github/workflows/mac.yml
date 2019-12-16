@@ -9,10 +9,15 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: Ports
+      run: cd MacPorts-2.6.2
+          ./configure && make && sudo make install
+    - name: boost
+      run: sudo port install boost 
     - name: dependencies
       run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - name: brew deps
-      run: brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl@1.1 pkg-config protobuf qt5
+      run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkg-config protobuf qt5
     - name: autogen
       run:  ./autogen.sh
     - name: configure
