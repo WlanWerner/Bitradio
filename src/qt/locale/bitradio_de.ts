@@ -618,7 +618,7 @@
     </message>
     <message>
       <source>&amp;Masternodes</source>
-      <translation>&amp;Masterknoten</translation>
+      <translation>&amp;Masternodes</translation>
     </message>
     <message>
       <source>Browse masternodes</source>
