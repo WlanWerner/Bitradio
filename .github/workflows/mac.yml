@@ -9,15 +9,15 @@ jobs:
     
     steps:
     - name: Download
-      run: wget http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz
+      run: wget http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.gz
     - name: tar
-      run:  tar -xzf boost_1_55_0.tar.gz
+      run:  tar -xzf boost_1_56_0.tar.gz
     - name: depends
-      working-directory: ./boost_1_55_0
-      run: ./bootstrap.sh --prefix=/usr/local/boost-1.55.0
-    - name: make -DBOOST_HAS_INT128=1
-      working-directory: ./boost_1_55_0
-      run: sudo ./b2 -DBOOST_HAS_INT128=1 cxxflags=-std=c++17 install
+      working-directory: ./boost_1_56_0
+      run: ./bootstrap.sh --prefix=/usr/local/boost-1.56.0
+    - name: make 
+      working-directory: ./boost_1_56_0
+      run: sudo ./b2 - cxxflags=-std=c++17 install
     - name: Export
       run: export DYLD_LIBRARY_PATH=/usr/local/boost-1.68.0/lib:$DYLD_LIBRARY_PATH
 
