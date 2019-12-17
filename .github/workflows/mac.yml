@@ -11,7 +11,7 @@ jobs:
     - name: dependencies
       run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - name: brew deps
-      run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkg-config protobuf qt5
+      run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkgconfig protobuf qt5
     - name: Download
       run: wget http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.gz
     - name: tar
