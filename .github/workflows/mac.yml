@@ -17,7 +17,7 @@ jobs:
       run: ./bootstrap.sh --prefix=/usr/local/boost-1.55.0
     - name: make -DBOOST_HAS_INT128=1
       working-directory: ./boost_1_55_0
-      run: sudo ./b2 cxxflags=-std=c++17 install
+      run: sudo ./b2 -DBOOST_HAS_INT128=1 cxxflags=-std=c++17 install
     - name: Export
       run: export DYLD_LIBRARY_PATH=/usr/local/boost-1.68.0/lib:$DYLD_LIBRARY_PATH
 
