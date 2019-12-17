@@ -8,6 +8,10 @@ jobs:
     runs-on: macos-latest 
     
     steps:
+    - name: dependencies
+      run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    - name: brew deps
+      run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkg-config protobuf qt5
     - name: Download
       run: wget http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.gz
     - name: tar
@@ -20,12 +24,6 @@ jobs:
       run: sudo ./b2 - cxxflags=-std=c++17 install
     - name: Export
       run: export DYLD_LIBRARY_PATH=/usr/local/boost-1.68.0/lib:$DYLD_LIBRARY_PATH
-
-
-    - name: dependencies
-      run:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    - name: brew deps
-      run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkg-config protobuf qt5
     - uses: actions/checkout@v1
     - name: autogen
       run:  ./autogen.sh
