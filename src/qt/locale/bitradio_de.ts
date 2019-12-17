@@ -2360,7 +2360,7 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
     </message>
     <message>
       <source>&amp;Network Traffic</source>
-      <translation>&amp;Netzdatenverkehr</translation>
+      <translation>&amp;Datenverkehr</translation>
     </message>
     <message>
       <source>&amp;Clear</source>
@@ -2452,7 +2452,7 @@ https://www.transifex.com/thebitradio-project/bitradio-project-translations</tra
     </message>
     <message>
       <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-      <translation>Versuchen Sie, private Schlüssel von einer korrupten wallet.dat zu erholen.</translation>
+      <translation>Versuchen Sie, private Schlüssel von einer korrupten wallet.dat wiederherzustellen.</translation>
     </message>
     <message>
       <source>Rescan blockchain files</source>
