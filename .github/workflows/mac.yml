@@ -13,17 +13,10 @@ jobs:
     - name: brew deps
       run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkgconfig protobuf qt5
     - name: Download
-      run: wget http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.gz
-    - name: tar
-      run:  tar -xzf boost_1_56_0.tar.gz
-    - name: depends
+      run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2-10.15-Catalina.pkg
       working-directory: ./boost_1_56_0
-      run: ./bootstrap.sh --prefix=/usr/local/boost-1.56.0
-    - name: make 
-      working-directory: ./boost_1_56_0
-      run: sudo ./b2 - cxxflags=-std=c++17 install
     - name: Export
-      run: export DYLD_LIBRARY_PATH=/usr/local/boost-1.68.0/lib:$DYLD_LIBRARY_PATH
+      run: sudo installer -pkg /path/to/package.pkg -target /opt/local/
     - uses: actions/checkout@v1
     - name: autogen
       run:  ./autogen.sh
