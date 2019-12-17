@@ -13,10 +13,10 @@ jobs:
     - name: tar
       run:  tar -xzf boost_1_55_0.tar.gz
     - name: depends
-      working-directory: ./boost_1_55_0.tar.bz2
+      working-directory: ./boost_1_55_0
       run: ./bootstrap.sh --prefix=/usr/local/boost-1.55.0
     - name: make
-      working-directory: ./MacPorts-2.6.2
+      working-directory: ./boost_1_55_0
       run: sudo ./b2 cxxflags=-std=c++17 install
     - name: Export
       run: export DYLD_LIBRARY_PATH=/usr/local/boost-1.68.0/lib:$DYLD_LIBRARY_PATH
