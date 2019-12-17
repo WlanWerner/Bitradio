@@ -13,9 +13,17 @@ jobs:
     - name: brew deps
       run: brew install autoconf automake berkeley-db4 libtool miniupnpc openssl@1.1 pkgconfig protobuf qt5
     - name: Download
-      run: wget https://distfiles.macports.org/MacPorts/MacPorts-2.6.2-10.15-Catalina.pkg
+      run: sudo mkdir -p /opt/mports
+    - name: Download
+      run: cd /opt/mports
+    - name: Download
+      run: git clone https://github.com/macports/macports-base.git
+    - name: Download
+      run: cd /opt/mports/macports-base
+    - name: Download
+      run: ./configure --enable-readline
     - name: Export
-      run: sudo installer -pkg /path/to/package.pkg -target /opt/local/
+      run: make
     - uses: actions/checkout@v1
     - name: autogen
       run:  ./autogen.sh
