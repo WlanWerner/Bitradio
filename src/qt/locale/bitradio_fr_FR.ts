@@ -4333,6 +4333,10 @@ Il est également recommandé de définir alertnotify de sorte que vous êtes in
       <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
+      <source>Copyright (C) 2019-%i The Bitradio Core Developers</source>
+      <translation>Copyright (C) 2019-%i The Bitradio Core Developers</translation>
+    </message>
+    <message>
       <source>Corrupted block database detected</source>
       <translation>Base de données de blocs altérée détectée</translation>
     </message>
