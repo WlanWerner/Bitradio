@@ -14,8 +14,11 @@ jobs:
             sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
             sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler -y
             sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 libqt5svg5-dev libqt5charts5-dev qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev -y
-            sudo apt-get install libssl1.0-dev -y
+            sudo apt-get install libssl1.0-dev libboost-all-dev -y
             sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl git -y
+            sudo apt install cmake -y
+            sudo apt install libcap-dev -y
+            sudo apt install libbz2-dev libzmq3-dev -y
             sudo apt install g++-mingw-w64-x86-64 -y
             sudo update-alternatives --config x86_64-w64-mingw32-g++
             sudo apt install python python3 python-dev python3-dev python-setuptools curl librsvg2-bin libtiff-tools bsdmainutils cmake imagemagick libcap-dev libz-dev libbz2-dev python3-setuptools -y
