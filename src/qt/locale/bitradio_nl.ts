@@ -2506,8 +2506,12 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The BitRadio Core Developers</source>
-        <translation>Copyright (C) 2015-%i The BitRadio Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2019-%i The Bitradio Core Developers</source>
+        <translation>Copyright (C) 2019-%i The Bitradio Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Error</source>

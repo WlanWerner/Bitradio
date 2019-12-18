@@ -4332,6 +4332,10 @@ zum Beispiel: alertnotify=echo %%s | mail -s &quot;BitRadio Alert&quot; admin@fo
       <translation>Copyright (C) 2015-%i Die PIVX Core Developers</translation>
     </message>
     <message>
+      <source>Copyright (C) 2019-%i The Bitradio Core Developers</source>
+      <translation>Copyright (C) 2019-%i Die Bitradio Core Developers</translation>
+    </message>
+    <message>
       <source>Corrupted block database detected</source>
       <translation>Beschädigte Blockdatenbank erkannt</translation>
     </message>
