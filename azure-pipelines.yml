@@ -15,7 +15,9 @@ steps:
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl@1.1 pkg-config protobuf qt5
     brew install berkeley-db@4
-    brew install autoconf automake libtool boost miniupnpc openssl pkg-config protobuf python3 qt5 zmq libevent qrencode gmp
+    brew install boost@1.5.7 
+    brew link boost@1.5.7 --force
+    brew install autoconf automake libtool  miniupnpc openssl pkg-config protobuf python3 qt5 zmq libevent qrencode gmp
 
   displayName: 'Dependency'
 
