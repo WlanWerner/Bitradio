@@ -33,7 +33,7 @@ steps:
     export CPPFLAGS+=-I/usr/local/opt/openssl/include
     export LDFLAGS="-L/usr/local/opt/icu4c/lib"
     export CPPFLAGS="-I/usr/local/opt/icu4c/include"
-    PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' ./configure  --with-gui=qt5
+    ./configure LDFLAGS='-L/usr/local/opt/openssl/lib' CPPFLAGS='-I/usr/local/opt/openssl/include' PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' --with-gui=qt5
   displayName: configure
 
 - script:  make
