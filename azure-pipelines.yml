@@ -16,5 +16,13 @@ steps:
 - script: |
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
-    
+
   displayName: 'Dependency'
+
+- script: |
+    ./autogen.sh
+    ./configure --with-gui=qt5
+    make
+
+
+  displayName: 'make'
