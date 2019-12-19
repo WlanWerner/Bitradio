@@ -9,6 +9,7 @@ trigger:
 pool:
   vmImage: 'macos-latest'
 
+steps:
 
 - script: |
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -19,14 +20,13 @@ pool:
 
 - script: |
     cd depends
-    make HOST=x86_64-apple-darwin11 -j 2
+    make HOST=x86_64-apple-darwin18 -j 2
     cd ..
-  displayName: Depends
 
 - script: ./autogen.sh
   displayName: autogen
 
-- script: LDFLAGS='-L/usr/local/opt/openssl/lib' CPPFLAGS='-I/usr/local/opt/openssl/include' PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' CONFIG_SITE=depends/x86_64-apple-darwin11/share/config.site ./configure --prefix=/  --with-gui=qt5
+- script: LDFLAGS='-L/usr/local/opt/openssl/lib' CPPFLAGS='-I/usr/local/opt/openssl/include' PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' ./configure --with-gui=qt5
   displayName: configure
 
 - script:  make
