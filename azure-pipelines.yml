@@ -14,20 +14,24 @@ steps:
 - script: |
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl@1.1 pkg-config protobuf qt5
-
+    brew install berkeley-db@4
+    brew install autoconf automake libtool boost miniupnpc openssl pkg-config protobuf python3 qt5 zmq libevent qrencode gmp
 
   displayName: 'Dependency'
 
-- script: |
-    cd depends
-    make HOST=x86_64-apple-darwin18 -j 2
-    cd ..
-  displayName: Depends
+#- script: |
+#    cd depends
+#    make HOST=x86_64-apple-darwin18 -j 2
+#    cd ..
+#  displayName: Depends
 
 - script: ./autogen.sh
   displayName: autogen
 
-- script: LDFLAGS='-L/usr/local/opt/openssl/lib' CPPFLAGS='-I/usr/local/opt/openssl/include' PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' CONFIG_SITE=depends/x86_64-apple-darwin11/share/config.site ./configure --prefix=/  --with-gui=qt5
+- script: |
+    export LDFLAGS+=-L/usr/local/opt/openssl/lib
+    export CPPFLAGS+=-I/usr/local/opt/openssl/include
+    LDFLAGS='-L/usr/local/opt/openssl/lib' CPPFLAGS='-I/usr/local/opt/openssl/include' PKG_CONFIG_PATH='/usr/local/opt/openssl/lib/pkgconfig' ./configure  --with-gui=qt5
   displayName: configure
 
 - script:  make
