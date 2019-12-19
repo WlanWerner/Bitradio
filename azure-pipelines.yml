@@ -20,6 +20,11 @@ steps:
 
   displayName: 'Dependency'
 
+- script: |
+    cd depends
+    make HOST=x86_64-apple-darwin11 -j 2
+    cd ..
+
 - script: ./autogen.sh
   displayName: autogen
 
