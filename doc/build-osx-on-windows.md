@@ -20,18 +20,18 @@ First, install the general dependencies:
 
 Acquire the source in the usual way:
 
-    https://github.com/thebitradio/Bitradio.git
+    git clone https://github.com/thebitradio/Bitradio.git
     cd Bitradio
 
 
 After that install more dependencies:
 
     cd depends
-    git clone https://github.com/MZaf/MacOSX10.11.sdk.git (Make sure cloning into depends directory)
+    wget https://github.com/MZaf/MacOSX10.11.sdk/raw/master/MacOSX10.11.sdk.tar.gz
     mkdir SDKs
     tar -xzvf MacOSX10.11.sdk.tar
     mv MacOSX10.11.sdk SDKs/MacOSX10.11.sdk
-    make HOST="x86_64-apple-darwin11" DARWIN_SDK_PATH=$PWD/depends/SDKs/MacOSX10.11.sdk -j<threads>
+    make HOST="x86_64-apple-darwin11" SDK_PATH=$PWD/depends/SDKs/MacOSX10.11.sdk -j<threads>
 
 This will take a lot of time. Wait and do not interrupt the compile.
 
