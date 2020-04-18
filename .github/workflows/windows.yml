@@ -40,5 +40,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: test
+        name: bitradio-1.1.0.10-win64
         path: /home/runner/work/Bitradio/Bitradio/installer
